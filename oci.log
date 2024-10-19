@@ -1,3 +1,66 @@
 Result:
-Already have an instance(s) [instance-20240809-1055] in state(s) (respectively) [RUNNING]. User: ocid1.user.oc1..aaaaaaaada7w25c33xmfbxxqwnwpavp4uglycayykikalxblvi2yc3qydfeq
-Run count: 2104
+
+Run count: 9
+Result:
+
+Run count: 1
+Error:
+PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 127 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
+Stack trace:
+#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
+#1 {main}
+  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
+Result:
+
+Run count: 2
+Error:
+PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 66 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
+Stack trace:
+#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
+#1 {main}
+  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
+Result:
+
+Run count: 3
+Error:
+PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 5 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
+Stack trace:
+#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
+#1 {main}
+  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+Run count: 4
+Result:
+
+Run count: 5
+Error:
+PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: {
+    "code": "TooManyRequests",
+    "message": "Too many requests for the user"
+} in /sec/root/oci-arm-host-capacity/src/OciApi.php:113
+Stack trace:
+#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
+#1 {main}
+  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 113
+Result:
+
+Run count: 6
+Error:
+PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 539 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
+Stack trace:
+#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
+#1 {main}
+  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
+Result:
+
+Run count: 7
+Error:
+PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 478 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
+Stack trace:
+#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
+#1 {main}
+  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
