@@ -1,66 +1,1963 @@
-Result:
-
-Run count: 9
-Result:
-
 Run count: 1
-Error:
-PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 127 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
-Stack trace:
-#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
-#1 {main}
-  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
-Result:
-
-Run count: 2
-Error:
-PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 66 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
-Stack trace:
-#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
-#1 {main}
-  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
-Result:
-
-Run count: 3
-Error:
-PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 5 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
-Stack trace:
-#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
-#1 {main}
-  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
 Result:
 {
     "code": "InternalError",
     "message": "Out of host capacity."
 }
+----------------------------------------
+Run count: 2
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 3
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
 Run count: 4
 Result:
-
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
 Run count: 5
-Error:
-PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: {
-    "code": "TooManyRequests",
-    "message": "Too many requests for the user"
-} in /sec/root/oci-arm-host-capacity/src/OciApi.php:113
-Stack trace:
-#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
-#1 {main}
-  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 113
 Result:
-
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
 Run count: 6
-Error:
-PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 539 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
-Stack trace:
-#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
-#1 {main}
-  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
 Result:
-
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
 Run count: 7
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 8
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 9
+----------------------------------------
+Run count: 10
+----------------------------------------
+Run count: 11
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 12
+----------------------------------------
+Run count: 13
+----------------------------------------
+Run count: 14
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 15
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 16
+----------------------------------------
+Run count: 17
+----------------------------------------
+Run count: 18
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 19
+----------------------------------------
+Run count: 20
+----------------------------------------
+Run count: 21
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 22
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 23
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 24
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 25
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 26
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 27
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 28
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 29
+----------------------------------------
+Run count: 30
+----------------------------------------
+Run count: 31
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 32
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 33
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 34
+----------------------------------------
+Run count: 35
+----------------------------------------
+Run count: 36
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 37
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 38
+----------------------------------------
+Run count: 39
+----------------------------------------
+Run count: 40
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 41
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 42
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 43
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 44
+----------------------------------------
+Run count: 45
+----------------------------------------
+Run count: 46
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 47
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 48
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 49
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 50
+----------------------------------------
+Run count: 51
+----------------------------------------
+Run count: 52
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 53
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 54
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 55
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 56
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 57
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 58
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 59
+----------------------------------------
+Run count: 60
+----------------------------------------
+Run count: 61
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 62
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 63
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 64
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 65
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 66
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 67
+----------------------------------------
+Run count: 68
+----------------------------------------
+Run count: 69
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 70
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 71
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 72
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 73
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 74
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 75
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 76
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 77
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 78
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 79
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 80
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 81
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 82
+----------------------------------------
+Run count: 83
+----------------------------------------
+Run count: 84
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 85
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 86
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 87
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 88
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 89
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 90
+----------------------------------------
+Run count: 91
+----------------------------------------
+Run count: 92
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 93
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 94
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 95
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 96
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 97
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 98
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 99
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 100
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 101
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 102
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 103
+----------------------------------------
+Run count: 104
+----------------------------------------
+Run count: 105
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 106
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 107
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 108
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 109
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 110
+----------------------------------------
+Run count: 111
+----------------------------------------
+Run count: 112
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 113
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 114
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 115
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 116
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 117
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 118
+----------------------------------------
+Run count: 119
+----------------------------------------
+Run count: 120
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 121
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 122
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 123
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 124
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 125
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 126
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 127
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 128
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 129
+----------------------------------------
+Run count: 130
+----------------------------------------
+Run count: 131
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 132
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 133
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 134
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 135
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 136
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 137
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 138
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 139
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 140
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 141
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 142
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 143
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 144
+----------------------------------------
+Run count: 145
+----------------------------------------
+Run count: 146
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 147
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 148
+----------------------------------------
+Run count: 149
+----------------------------------------
+Run count: 150
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 151
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 152
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 153
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 154
+----------------------------------------
+Run count: 155
+----------------------------------------
+Run count: 156
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 157
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 158
+----------------------------------------
+Run count: 159
+----------------------------------------
+Run count: 160
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 161
+----------------------------------------
+Run count: 162
+----------------------------------------
+Run count: 163
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 164
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 165
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 166
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 167
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 168
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 169
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 170
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 171
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 172
+----------------------------------------
+Run count: 173
+----------------------------------------
+Run count: 174
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 175
+----------------------------------------
+Run count: 176
+----------------------------------------
+Run count: 177
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 178
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 179
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 180
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 181
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 182
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 183
+----------------------------------------
+Run count: 184
+----------------------------------------
+Run count: 185
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 186
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 187
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 188
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 189
+----------------------------------------
+Run count: 190
+----------------------------------------
+Run count: 191
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 192
+----------------------------------------
+Run count: 193
+----------------------------------------
+Run count: 194
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 195
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 196
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 197
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 198
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 199
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 200
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 201
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 202
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 203
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 204
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 205
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 206
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 207
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 208
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 209
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 210
+----------------------------------------
+Run count: 211
+----------------------------------------
+Run count: 212
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 213
+----------------------------------------
+Run count: 214
+----------------------------------------
+Run count: 215
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 216
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 217
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 218
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 219
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 220
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 221
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 222
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 223
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 224
+----------------------------------------
+Run count: 225
+----------------------------------------
+Run count: 226
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 227
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 228
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 229
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 230
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 231
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 232
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 233
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 234
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 235
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 236
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 237
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 238
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 239
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 240
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 241
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 242
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 243
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 244
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 245
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 246
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 247
+----------------------------------------
+Run count: 248
+----------------------------------------
+Run count: 249
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 250
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 251
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 252
+----------------------------------------
+Run count: 253
+----------------------------------------
+Run count: 254
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 255
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 256
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 257
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 258
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 259
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 260
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 261
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 262
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 263
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 264
+----------------------------------------
+Run count: 265
+----------------------------------------
+Run count: 266
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 267
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 268
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 269
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 270
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 271
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 272
+----------------------------------------
+Run count: 273
+----------------------------------------
+Run count: 274
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 275
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 276
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 277
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 278
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 279
+----------------------------------------
+Run count: 280
+----------------------------------------
+Run count: 281
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 282
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 283
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 284
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 285
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 286
+----------------------------------------
+Run count: 287
+----------------------------------------
+Run count: 288
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 289
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 290
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 291
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 292
+----------------------------------------
+Run count: 293
+----------------------------------------
+Run count: 294
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 295
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 296
 Error:
-PHP Fatal error:  Uncaught Hitrov\Exception\TooManyRequestsWaiterException: Will retry after 478 seconds in /sec/root/oci-arm-host-capacity/src/OciApi.php:48
+PHP Fatal error:  Uncaught Hitrov\Exception\CurlException: curl error occurred: Connection timed out after 10004 milliseconds, response:  in /sec/root/oci-arm-host-capacity/src/HttpClient.php:31
 Stack trace:
-#0 /sec/root/oci-arm-host-capacity/index.php(95): Hitrov\OciApi->createInstance()
-#1 {main}
-  thrown in /sec/root/oci-arm-host-capacity/src/OciApi.php on line 48
+#0 /sec/root/oci-arm-host-capacity/src/OciApi.php(257): Hitrov\HttpClient::getResponse()
+#1 /sec/root/oci-arm-host-capacity/src/OciApi.php(132): Hitrov\OciApi->call()
+#2 /sec/root/oci-arm-host-capacity/index.php(74): Hitrov\OciApi->getInstances()
+#3 {main}
+  thrown in /sec/root/oci-arm-host-capacity/src/HttpClient.php on line 31
+----------------------------------------
+Run count: 297
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 298
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 299
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 300
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 301
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 302
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 303
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 304
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 305
+----------------------------------------
+Run count: 306
+----------------------------------------
+Run count: 307
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 308
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 309
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 310
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 311
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 312
+----------------------------------------
+Run count: 313
+----------------------------------------
+Run count: 314
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 315
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 316
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 317
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 318
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 319
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 320
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 321
+----------------------------------------
+Run count: 322
+----------------------------------------
+Run count: 323
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 324
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 325
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 326
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 327
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 328
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 329
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 330
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 331
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 332
+----------------------------------------
+Run count: 333
+----------------------------------------
+Run count: 334
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 335
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 336
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 337
+----------------------------------------
+Run count: 338
+----------------------------------------
+Run count: 339
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
+Run count: 340
+Result:
+{
+    "code": "InternalError",
+    "message": "Out of host capacity."
+}
+----------------------------------------
